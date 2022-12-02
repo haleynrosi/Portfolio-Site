@@ -1,0 +1,85 @@
+body, html {
+    height: 200%;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    font-size: 55px;
+    margin-left: 20px;
+    
+}
+
+
+
+h2 {
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    color: white;
+    text-align: center;
+    width: 75%;
+}
+
+.topDiv {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+    margin-left: 20px;
+}
+
+.middleDiv{
+    height:70%;
+}
+
+.lastDiv {
+    height: 70%;
+}
+
+.contactDiv {
+    height: 30%;
+}
+
+.contactButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+button {
+    margin: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: rgb(112, 190, 233);
+    border-style:double;
+    background-color: rgb(112, 190, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight:700;
+    
+}
+
+.bgImageOne {
+    display: flex;
+    flex-direction: column;
+    padding-top: none;
+    height: 100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/cssimages/bgcolor.png');
+}
